@@ -1,0 +1,25 @@
+.header{
+
+  &__ruuben {
+    font-size: 4rem;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+    font-family: Montserrat;
+
+    &:hover {
+      color: #F5BDC4;
+      transition: 0.3s;
+    }
+
+    &__img {
+
+      &__container {
+        display: block;
+        width: 90vw;
+        height: 50rem;
+        background-color: #F5BDC4;
+      }
+    }
+  }
+}
