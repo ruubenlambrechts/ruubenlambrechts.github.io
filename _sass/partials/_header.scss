@@ -1,25 +1,30 @@
 .header{
 
   &__ruuben {
-    font-size: 4rem;
-    text-decoration: none;
-    color: black;
-    transition: 0.3s;
-    font-family: Montserrat;
+    padding-bottom: 2rem;
 
-    &:hover {
-      color: #F5BDC4;
-      transition: 0.3s;
+      &__link {
+        font-size: 3.8rem;
+        text-decoration: none;
+        color: black;
+        transition: 0.3s;
+        font-family: Montserrat;
+      }
+
+      &__link:hover {
+        color: #F5BDC4;
+        transition: 0.3s;
+      }
     }
 
     &__img {
-
+      width: 85vw;
+      height: 100%;
       &__container {
-        display: block;
-        width: 90vw;
-        height: 50rem;
-        background-color: #F5BDC4;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
       }
-    }
   }
 }

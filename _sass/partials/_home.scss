@@ -1,0 +1,43 @@
+.title {
+  font-size: 3.2rem;
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+  font-family: Montserrat;
+  display: inline-block;
+  margin-bottom: 2rem;
+
+  &::after {
+    display: block;
+    content: "";
+    width: 140%;
+    height: .5rem;
+    background: black;
+  }
+}
+
+.work {
+
+  margin-top: 6rem;
+  background-color: #D6F0FF;
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    justify-content: space-between;
+    margin: 1rem;
+  }
+
+  &__post {
+    width: 22rem;
+    height: 15rem;
+    display: block;
+    background: #D8D8D8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin: .5rem
+  }
+}
