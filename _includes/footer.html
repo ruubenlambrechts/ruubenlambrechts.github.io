@@ -20,15 +20,15 @@
 
       <div class="footer-col footer-col-2">
         <ul class="social-media-list">
-          {% if site.github_username %}
+          {% if site.socials.github %}
           <li>
-            {% include icon-github.html username=site.github_username %}
+            <p>{{site.socials.github}}</p>
           </li>
           {% endif %}
 
-          {% if site.twitter_username %}
+          {% if site.socials.twitter %}
           <li>
-            {% include icon-twitter.html username=site.twitter_username %}
+            <p>{{site.socials.twitter}}</p>
           </li>
           {% endif %}
         </ul>

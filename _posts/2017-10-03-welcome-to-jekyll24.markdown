@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "MSK"
+title:  "game 2"
 date:   2017-06-10 14:28:47 +0100
 categories: jekyll update
 ---

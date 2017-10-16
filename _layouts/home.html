@@ -1,26 +1,33 @@
 ---
 layout: default
 ---
+<section class="work__section">
+  <div class="work">
 
-<div class="work">
+    <h1 class="work__title title margin">Work</h1>
 
-  <h1 class="work__title title">Work</h1>
+    {{ content }}
 
-  {{ content }}
+    <ul class="work__list">
+      {% for post in site.posts %}
+        <li class="work__post">
+          <a class="work__post__link" href="{{ post.url | relative_url }}">
+            <img src="../assets/img_test2.jpg" alt="test" class="work__post__img">
+            {% assign date_format = site.minima.date_format | default: "%b, %Y" %}
+            <div class="work__post__box">
+              <h2 class="work__post__title work__post__text">{{ post.title | escape }}</h2>
+              <span class="work__post__date work__post__text">{{ post.date | date: date_format }}</span>
+            </div>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+    <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
+  </div>
+</section>
+<section class="about__section">
+  <div class="about">
+    <h1 class="about__title title margin">About</h1>
 
-  <ul class="work__list">
-    {% for post in site.posts %}
-      <li class="work__post">
-        {% assign date_format = site.minima.date_format | default: "%b, %Y" %}
-        <span class="work__post__date">{{ post.date | date: date_format }}</span>
-        <h2>
-          <a class="work__post__link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
-</div>
-<div class="about">
-  <h1 class="about__title title">About</h1>
-</div>
+  </div>
+</section>

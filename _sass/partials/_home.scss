@@ -1,43 +1,90 @@
-.title {
-  font-size: 3.2rem;
-  text-decoration: none;
-  color: black;
-  transition: 0.3s;
-  font-family: Montserrat;
-  display: inline-block;
-  margin-bottom: 2rem;
-
-  &::after {
-    display: block;
-    content: "";
-    width: 140%;
-    height: .5rem;
-    background: black;
-  }
-}
-
 .work {
-  margin: 5rem -1.5rem 0;
-  background-color: #D6F0FF;
   padding: 2rem;
+  margin: 3rem 0 5rem 0;
+
+  &__section {
+    background-color: #D6F0FF;
+  }
 
   &__list {
     display: flex;
     flex-wrap: wrap;
     width: 90vw;
-    justify-content: space-between;
-    margin: 1rem;
+    justify-content: center;
+    margin: auto;
   }
 
   &__post {
-    width: 22rem;
-    height: 15rem;
-    display: block;
-    background: #D8D8D8;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    margin: .5rem
+    width: 26rem;
+    height: 18rem;
+    margin: 1rem;
+
+    &__box {
+      font-family: Montserrat;
+      color: white;
+      position: absolute;
+      opacity: 0;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      transition: .4s;
+    }
+
+    &__title {
+      font-size: 2.1rem;
+      font-weight: bold;
+      padding-bottom: .2rem;
+      text-transform: capitalize;
+    }
+
+    &__date {
+      padding-bottom: 4rem;
+    }
+
+    &__link {
+      width: 100%;
+      height: 100%;
+      text-decoration: none;
+      color: black;
+      display: block;
+      position: relative;
+      overflow: hidden;
+      transition: .4s;
+      object-position: center;
+      object-fit: cover;
+    }
+
+    &__link::before {
+      position: absolute;
+      content: '';
+      display: block;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(-45deg, #ffcef7 0%,#7db9e8 100%);;
+    }
+
+    &__link:hover &__img {
+      transition: .4s;
+      transform: scale(1);
+      filter:opacity(50%);
+      clip-path: inset(5% 4% 5% 4%);
+    }
+
+    &__link:hover &__box {
+      opacity: 1;
+      transition: .8s;
+    }
+
+    &__img {
+      position: absolute;
+      transition: .4s;
+      transform: scale(1.1);
+      width: 100%;
+      height: 100%;
+      clip-path: inset(0% 0% 0% 0%);
+    }
   }
 }
