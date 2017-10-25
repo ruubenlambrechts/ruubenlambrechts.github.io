@@ -1,3 +1,48 @@
 .post {
-padding: 5rem 2rem;
+margin-top: 1.5rem;
+
+  &__date {
+    margin-bottom: .5rem;
+  }
+
+  &__header {
+    position: relative;
+    background: var(--blue);
+  }
+
+  &__header-flex {
+    display: flex;
+    padding: 2.5rem 4rem;
+
+      &__right {
+        margin: 1rem 0 0 2rem;
+        width: 40vw;
+      }
+  }
+
+
+  &__big-title {
+    text-align: center;
+    font-size: 3.2rem;
+    text-decoration: none;
+    color: white;
+    font-family: Montserrat;
+    padding: .5rem;
+    text-transform: capitalize;
+    background-color: black;
+  }
+
+  &__title {
+    margin: 1.5rem 0;
+    font-size: 2rem;
+  }
+
+  &__title::after {
+    height: .3rem;
+  }
+
+  &__text {
+    padding: 0 5rem 0 1rem;
+    margin-bottom: 1rem;
+  }
 }

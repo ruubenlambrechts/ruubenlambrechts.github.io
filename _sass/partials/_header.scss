@@ -1,5 +1,21 @@
+
+:root{
+  --pink: #ffcef7;
+  --blue: #d6f0ff;
+  --dark-blue: #7db9e8;
+}
+
+body {
+  font-family: Raleway;
+  font-size: 1.3rem;
+}
+
+.text {
+  line-height: 1.7rem;
+}
+
 .margin {
-  margin-left: 2rem;
+  margin-left: 4rem;
 }
 
 
@@ -10,7 +26,7 @@
   transition: 0.3s;
   font-family: Montserrat;
   display: inline-block;
-  margin-bottom: 2rem;
+  margin: 2rem 4rem;
   text-transform: capitalize;
 
   &::after {
@@ -25,13 +41,13 @@
 .header {
 
   &__ruuben {
-    display: relative;
+    display: flex;
+    justify-content: center;
     padding-top: 1.5rem;
 
     &__link {
-      display: flex;
-      justify-content: center;
-      font-size: 4.5rem;
+      font-size: 2.5rem;
+      padding: .5rem;
       text-decoration: none;
       color: black;
       transition: 0.4s;
@@ -39,7 +55,7 @@
     }
 
     &__link:hover {
-      color: #7db9e8;
+      color: var(--dark-blue);
       transition: 0.4s;
     }
 
@@ -48,11 +64,11 @@
       z-index: -1;
       content: '';
       display: block;
-      background: #d6f0ff;
-      width: 13rem;
-      height: 5rem;
+      background: var(--blue);
+      width: 7.8rem;
+      height: 3.1rem;
       margin-top: -.3rem;
-      margin-left: -8rem;
+      margin-left: -1.3rem;
     }
 
     &__link::after {
@@ -60,7 +76,66 @@
       z-index: -1;
       content: '';
       display: block;
-      background: #ffcef7;
+      background: var(--pink);
+      width: 11.6rem;
+      height: 3rem;
+      margin-top: -2.7rem;
+      margin-left: 4rem;
+    }
+  }
+
+  &__img {
+    width: 100%;
+    height: 80vh;
+
+    &__container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+    }
+  }
+  }
+
+.header-big {
+
+  &__ruuben {
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem 0;
+
+    &__link {
+      font-size: 4.5rem;
+      padding: .5rem;
+      text-decoration: none;
+      color: black;
+      transition: 0.4s;
+      font-family: Montserrat;
+    }
+
+    &__link:hover {
+      color: var(--dark-blue);
+      transition: 0.4s;
+    }
+
+    &__link::before {
+      position: absolute;
+      z-index: -1;
+      content: '';
+      display: block;
+      background: var(--blue);
+      width: 13rem;
+      height: 5rem;
+      margin-top: -.3rem;
+      margin-left: -2rem;
+    }
+
+    &__link::after {
+      position: absolute;
+      z-index: -1;
+      content: '';
+      display: block;
+      background: var(--pink);
       width: 22rem;
       height: 5rem;
       margin-top: -4.8rem;

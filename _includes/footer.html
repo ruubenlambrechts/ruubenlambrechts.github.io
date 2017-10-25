@@ -1,44 +1,19 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% endif %}
-            </li>
-            {% if site.email %}
-            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.socials.github %}
-          <li>
-            <p>{{site.socials.github}}</p>
-          </li>
-          {% endif %}
-
-          {% if site.socials.twitter %}
-          <li>
-            <p>{{site.socials.twitter}}</p>
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description | escape }}</p>
-      </div>
-    </div>
-
-  </div>
-
+<footer class="footer">
+  <ul class="footer__ul">
+    <li class="footer__li">
+      <a href="mailto:{{ site.email }}">Email</a>
+    </li>
+    <li class="footer__li">
+      <a href="tel://{{ site.phone }}">Phone</a>
+    </li>
+    <li class="footer__li">
+      <a href="{{site.socials.github}}" target="_blank">Github</a>
+    </li>
+    <li class="footer__li">
+      <a href="{{site.socials.twitter}}" target="_blank">Twitter</a>
+    </li>
+    <li class="footer__li">
+      <a href="{{site.socials.linkedIn}}" target="_blank">LinkedIn</a>
+    </li>
+  </ul>
 </footer>

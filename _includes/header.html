@@ -1,7 +1,16 @@
 <header class="site-header" role="banner">
 
-  <h1 class="header__ruuben margin">
+  {% if page.url == "/" %}
+  <h1 class="header-big__ruuben">
+    <a href="/" class="header-big__ruuben__link">Ruuben<br>Lambrechts</a>
+  </h1>
+
+  {% else %}
+  <h1 class="header__ruuben">
     <a href="/" class="header__ruuben__link">Ruuben<br>Lambrechts</a>
   </h1>
+  {% endif %}
+
+
 
 </header>
