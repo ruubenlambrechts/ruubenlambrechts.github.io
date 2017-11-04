@@ -1,0 +1,20 @@
+---
+layout: post
+date:  2016-06-10 14:28:47 +0100
+title: "The jetsetters festival"
+
+online: http://student.howest.be/ruuben.lambrechts/20152016/MAII/TRK/index.php
+team:
+  - Ruuben Lambrechts
+categorie: Web design, Web development
+
+cover-image: /assets/truck/cover-image-truck.jpg
+header-image: /assets/truck/header-image-truck.png
+
+screenshot1: /assets/truck/screenshot1-truck.jpg
+screenshot2: /assets/truck/screenshot2-truck.jpg
+screenshot3: /assets/truck/screenshot3-truck.jpg
+
+brief: "//"
+---
+//
