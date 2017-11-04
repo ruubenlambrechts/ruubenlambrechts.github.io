@@ -1,0 +1,29 @@
+---
+layout: post
+date:  2017-05-31 14:28:47 +0100
+title: "MSK gent"
+
+online: https://dry-garden-69599.herokuapp.com/
+team:
+  - Wouter Landuydt
+  - Eva Baete
+  - Ruuben Lambrechts
+categorie: Web design, Web development, Responsive, Mapbox, React
+
+cover-image: /assets/msk/cover-image-msk.jpg
+header-image: /assets/msk/header-image-msk.png
+iphone-image: /assets/msk/iphone-image-msk.png
+
+screenshot1: /assets/msk/screenshot1-msk.jpg
+screenshot2: /assets/msk/screenshot2-msk.jpg
+screenshot3: /assets/msk/screenshot3-msk.jpg
+
+brief: "MSK Ghent is a museum of fine arts. They noticed that not allot of youth from Gent is visiting the museum. We had to come up with a campaign that would attract more youth to the museum. The focus of the campaign had to be digital, but it could also be supported by offline content."
+---
+We started with interviewing people in the streets of Ghent and asked about what they knew about the MSK, and what their interests were in general.
+
+After a full week of brainstorming We found a concept that was based on traveling. With our campaign we want to tell the youth, that you don't have to travel to see art, because it is just around the corner. We called it "Don't look to far for culture".
+
+We put the sentence on everyday objects like tote bags, stickers and coasters, so that people would link the MSK with going on vacation when living their normal life.
+
+In addition to that, we made a web application that creates your "vacation" through the MSK. You have to choose 3 countries where you like the culture of or would like to go, the app calculates how much you need to travel to get there. Luckily the MSK is just around the corner and you get a personal tour from the website to your likings.

@@ -1,5 +1,6 @@
 .post {
 margin-top: 1.5rem;
+line-height: 1.5rem;
 
   &__date {
     margin-bottom: .5rem;
@@ -8,6 +9,7 @@ margin-top: 1.5rem;
   &__header {
     position: relative;
     background: var(--blue);
+    margin-bottom: 1.5rem;
   }
 
   &__header-flex {
@@ -16,33 +18,94 @@ margin-top: 1.5rem;
 
       &__right {
         margin: 1rem 0 0 2rem;
-        width: 40vw;
+        width: 25vw;
       }
   }
 
+  &__img {
+    width: 65vw;
+    filter: drop-shadow(0 .3rem .3rem rgba(0, 0, 0, .4));
+  }
 
   &__big-title {
     text-align: center;
-    font-size: 3.2rem;
+    font-size: 2.8rem;
     text-decoration: none;
     color: white;
     font-family: Montserrat;
-    padding: .5rem;
+    padding: 1.5rem;
     text-transform: capitalize;
     background-color: black;
   }
 
   &__title {
     margin: 1.5rem 0;
-    font-size: 2rem;
   }
 
-  &__title::after {
-    height: .3rem;
+  &__title:after {
+    margin-top: 1rem;
+  }
+
+  &__team {
+    margin-bottom: .7rem;
+  }
+
+  &__team:last-child {
+    margin-bottom: 0;
+  }
+
+  &__article {
+    display: flex;
+    align-items: center;
+
+    &-box-flex {
+      display: flex;
+    }
+
+    &__img {
+      margin: 1.5rem 4rem 0;
+      height: 100%;
+      filter: drop-shadow(0 .3rem .3rem rgba(0, 0, 0, .4));
+      width: 25rem;
+    }
+
+    &__screenshot-flex {
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 4rem;
+      margin-top: 3rem;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    &__screenshot-box {
+      display: flex;
+      flex-wrap: wrap;
+      width: 29rem;
+      align-items: flex-start;
+    }
+
+    &__screenshot1 {
+      margin-bottom: 2rem;
+    }
+
+    &__screenshot {
+      filter: drop-shadow(0 .3rem .3rem rgba(0, 0, 0, .4));
+      width: 29rem;
+    }
+  }
+
+  &__video {
+    width: 700px;
+    height: 400px;
   }
 
   &__text {
     padding: 0 5rem 0 1rem;
+    margin-bottom: 1rem;
+  }
+
+  &__text p {
     margin-bottom: 1rem;
   }
 }

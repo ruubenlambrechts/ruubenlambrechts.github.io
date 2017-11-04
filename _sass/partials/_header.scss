@@ -5,13 +5,17 @@
   --dark-blue: #7db9e8;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
-  font-family: Raleway;
-  font-size: 1.3rem;
+  font-family: Proxima Nova;
+  font-size: 1.6rem;
 }
 
 .text {
-  line-height: 1.7rem;
+  line-height: 2.2rem;
 }
 
 .margin {
@@ -20,7 +24,7 @@ body {
 
 
 .title {
-  font-size: 3.2rem;
+  font-size: 3rem;
   text-decoration: none;
   color: black;
   transition: 0.3s;
@@ -33,8 +37,9 @@ body {
     display: block;
     content: "";
     width: 130%;
-    height: .5rem;
+    height: .4rem;
     background: black;
+    margin-top: .2rem;
   }
 }
 

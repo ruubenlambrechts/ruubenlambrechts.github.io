@@ -1,0 +1,20 @@
+---
+layout: post
+date:  2017-01-20 14:28:47 +0100
+title: "Dok Gent"
+
+team:
+  - Ruuben Lambrechts
+categorie: Web design, Web development, Responsive
+
+cover-image: /assets/dok/cover-image-dok.jpg
+header-image: /assets/dok/header-image-dok.png
+iphone-image: /assets/dok/iphone-image-dok.png
+
+screenshot1: /assets/dok/screenshot1-dok.jpg
+screenshot2: /assets/dok/screenshot2-dok.jpg
+screenshot3: /assets/dok/screenshot3-dok.jpg
+
+brief: "//"
+---
+//

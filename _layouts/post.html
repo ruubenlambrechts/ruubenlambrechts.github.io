@@ -13,39 +13,72 @@ layout: default
             {{ page.date | date: date_format }}
           </time>
         </p>
-        <img src="{{ page.header-image }}" alt="test" class="post__img">
+        {% if page.header-image %}
+        <img src="{{ page.header-image }}" alt="header image" class="post__img">
+        {% endif %}
+        {% if page.video %}
+        {{ page.video }}
+        {% endif %}
       </div>
       <div class="post__header-flex__right">
         <div>
           <h1 class="post__title title">team</h1>
           {% if page.team %}
-          {% for member in page.team %}
-            <li>{{member}}</li>
-          {% endfor %}
+            {% for member in page.team %}
+              <li class="post__team">{{member}}</li>
+            {% endfor %}
           {% endif %}
         </div>
         <div>
           {% if page.categorie %}
           <h1 class="post__title title">categorie</h1>
-          <p>{{page.categorie}}</p>
+          <p class="text">{{page.categorie}}</p>
           {% endif %}
         </div>
         <div>
           {% if page.online %}
           <h1 class="post__title title">online</h1>
           </br>
-          <a href="{{page.online}}" target="_blank">link</a>
+          <a href="{{page.online}}" target="_blank">The Project</a>
           {% endif %}
         </div>
       </div>
     </div>
   </header>
-  <div class="post__brief-box margin" itemprop="articleBody">
-    <h1 class="post__title title">brief</h1>
-    <p class="post__text">{{page.brief}}</p>
-  </div>
-  <div class="post__content-box margin" itemprop="articleBody">
-    <h1 class="post__title title">concept</h1>
-    <p class="post__text">{{page.concept}}</p>
-  </div>
+  <article class="post__article">
+    {% if page.iphone-image %}
+      <div class="post_article-box">
+    {% else if %}
+      <div class="post_article-box post__article-box-flex">
+    {% endif %}
+      <div>
+        <div class="post__brief-box margin" itemprop="articleBody">
+          <h1 class="post__title title">brief</h1>
+          <p class="post__text text">{{page.brief}}</p>
+        </div>
+        <div class="post__content-box margin text" itemprop="articleBody">
+          <h1 class="post__title title">concept</h1>
+          <div class="post__text">
+            {{content}}
+          </div>
+        </div>
+      </div>
+      <div class="post__article__screenshot-flex">
+        <div class="post__article__screenshot-box">
+          {% if page.screenshot1 %}
+          <img src="{{page.screenshot1}}" alt="screenshot 1" class="post__article__screenshot1 post__article__screenshot">
+          {% endif %}
+          {% if page.screenshot3 %}
+          <img src="{{page.screenshot3}}" alt="screenshot 3" class="post__article__screenshot3 post__article__screenshot">
+          {% endif %}
+        </div>
+        {% if page.screenshot2 %}
+        <img src="{{page.screenshot2}}" alt="screenshot 2" class="post__article__screenshot2 post__article__screenshot">
+        {% endif %}
+      </div>
+    </div>
+    {% if page.iphone-image %}
+    <img src="{{ page.iphone-image }}" alt="iphone image" class="post__article__img">
+    {% endif %}
+  </article>
 </article>
