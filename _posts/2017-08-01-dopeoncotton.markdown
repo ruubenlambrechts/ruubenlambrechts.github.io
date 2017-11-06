@@ -6,6 +6,7 @@ title: "dope on cotton"
 team:
   - Ruuben Lambrechts
 categorie: T-shirt design, Personal project
+core: Textile print
 
 cover-image: /assets/dope/cover-image-dope.jpg
 header-image: /assets/dope/header-image-dope.png

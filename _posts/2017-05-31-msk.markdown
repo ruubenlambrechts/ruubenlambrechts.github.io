@@ -9,10 +9,11 @@ team:
   - Eva Baete
   - Ruuben Lambrechts
 categorie: Web design, Web development, Responsive, Mapbox, React
+core: Responsive Web
 
 cover-image: /assets/msk/cover-image-msk.jpg
-header-image: /assets/msk/header-image-msk.png
-iphone-image: /assets/msk/iphone-image-msk.png
+header-image: /assets/msk/header-image-msk.jpg
+iphone-image: /assets/msk/iphone-image-msk.jpg
 
 screenshot1: /assets/msk/screenshot1-msk.jpg
 screenshot2: /assets/msk/screenshot2-msk.jpg

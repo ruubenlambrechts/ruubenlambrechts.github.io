@@ -3,17 +3,15 @@ layout: post
 date:  2017-01-11 14:28:47 +0100
 title: "orca game"
 
+online: http://student.howest.be/wouter.landuydt/20162017/cod/game/
 team:
   - Ruuben Lambrechts
-categorie: t-shirt design, Personal project
+categorie: Game development, Phaser
+core: game development
 
 cover-image: /assets/orca/cover-image-orca.jpg
 header-image: /assets/orca/header-image-orca.png
 
-screenshot1: /assets/orca/screenshot1-orca.jpg
-screenshot2: /assets/orca/screenshot2-orca.jpg
-screenshot3: /assets/orca/screenshot3-orca.jpg
-
-brief: "//"
+brief: ""
 ---
 //

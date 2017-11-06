@@ -6,9 +6,10 @@ title: "xPuff"
 team:
   - Ruuben Lambrechts
 categorie: Motion
+core: Motion
 
 cover-image: /assets/explainer/cover-image-explainer.jpg
-video: <iframe src="https://player.vimeo.com/video/240914719" class="post__video" width="550" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen ></iframe>
+video: <iframe src="https://player.vimeo.com/video/240914719" class="post__video" width="550" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen ></iframe>
 
 brief: "We had to create a video that explained a Kickstarter project. We had to trigger the people to sponsor the project, and explain what it's about. The result had to be a 2D animation spot of 30 seconds, supported with english voice-over and music."
 ---

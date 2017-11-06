@@ -33,12 +33,26 @@
       line-height: 2rem;
     }
 
+    &__core {
+      text-transform: capitalize;
+      color: black;
+      margin-top: .5rem;
+      text-align: center;
+    }
+
+    &__date {
+      position: absolute;
+      bottom: 1rem;
+      right: 1.8rem;
+      color: black;
+    }
+
     &__title {
       font-size: 2.1rem;
       font-weight: bold;
       padding-bottom: .2rem;
-      text-transform: capitalize;
       text-align: center;
+      text-transform: capitalize;
     }
 
     &__link {
@@ -62,9 +76,9 @@
 
     &__link:hover &__img {
       transition: .4s;
-      transform: scale(.9);
+      transform: scale(1.1);
       opacity: .2;
-      clip-path: inset(1.5% 1% 1.5% 1%);
+      clip-path: inset(8% 8% 8% 8%);
     }
 
     &__link:hover &__box {
