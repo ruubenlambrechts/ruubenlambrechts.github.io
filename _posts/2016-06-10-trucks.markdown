@@ -7,9 +7,10 @@ online: http://student.howest.be/ruuben.lambrechts/20152016/MAII/TRK/index.php
 team:
   - Ruuben Lambrechts
 categorie: Web design, Web development
+core: Web
 
 cover-image: /assets/truck/cover-image-truck.jpg
-header-image: /assets/truck/header-image-truck.png
+header-image: /assets/truck/header-image-truck.jpg
 
 screenshot1: /assets/truck/screenshot1-truck.jpg
 screenshot2: /assets/truck/screenshot2-truck.jpg

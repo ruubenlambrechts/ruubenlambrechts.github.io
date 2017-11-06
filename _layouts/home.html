@@ -16,6 +16,7 @@ layout: default
             {% assign date_format = site.minima.date_format | default: "%b, %Y" %}
             <div class="work__post__box">
               <h2 class="work__post__title work__post__text">{{ post.title | escape }}</h2>
+              <span class="work__post__core work__post__text">{{ post.core }}</span>
               <span class="work__post__date work__post__text">{{ post.date | date: date_format }}</span>
             </div>
           </a>

@@ -14,7 +14,9 @@ layout: default
           </time>
         </p>
         {% if page.header-image %}
-        <img src="{{ page.header-image }}" alt="header image" class="post__img">
+        <div class="post__img-ipad">
+          <img src="{{ page.header-image }}" alt="header image" class="post__img">
+        </div>
         {% endif %}
         {% if page.video %}
         {{ page.video }}
@@ -32,7 +34,7 @@ layout: default
         <div>
           {% if page.categorie %}
           <h1 class="post__title title">categorie</h1>
-          <p class="text">{{page.categorie}}</p>
+          <p class="post__categorie text">{{page.categorie}}</p>
           {% endif %}
         </div>
         <div>
@@ -46,12 +48,13 @@ layout: default
     </div>
   </header>
   <article class="post__article">
-    {% if page.iphone-image %}
-      <div class="post_article-box">
-    {% else if %}
-      <div class="post_article-box post__article-box-flex">
-    {% endif %}
-      <div>
+    <div class="post__article-box">
+    <div class="post__article__top-box">
+      {% if page.iphone-image %}
+      <div class="post__article__top-text">
+      {% else %}
+      <div class="post__article__top-text no-iphone">
+      {% endif %}
         <div class="post__brief-box margin" itemprop="articleBody">
           <h1 class="post__title title">brief</h1>
           <p class="post__text text">{{page.brief}}</p>
@@ -63,6 +66,13 @@ layout: default
           </div>
         </div>
       </div>
+      {% if page.iphone-image %}
+      <div class="post__article__img-iphone">
+        <img src="{{ page.iphone-image }}" alt="iphone image" class="post__article__img">
+      </div>
+      {% endif %}
+    </div>
+      {% if page.screenshot1 or page.screenshot2 or page.screenshot3 %}
       <div class="post__article__screenshot-flex">
         <div class="post__article__screenshot-box">
           {% if page.screenshot1 %}
@@ -76,9 +86,7 @@ layout: default
         <img src="{{page.screenshot2}}" alt="screenshot 2" class="post__article__screenshot2 post__article__screenshot">
         {% endif %}
       </div>
+      {% endif %}
     </div>
-    {% if page.iphone-image %}
-    <img src="{{ page.iphone-image }}" alt="iphone image" class="post__article__img">
-    {% endif %}
   </article>
 </article>

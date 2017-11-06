@@ -7,9 +7,10 @@ online: http://student.howest.be/ruuben.lambrechts/20162017/maIII/blauw
 team:
   - Ruuben Lambrechts
 categorie: Web design, Web development
+core: Web
 
 cover-image: /assets/blauw/cover-image-blauw.jpg
-header-image: /assets/blauw/header-image-blauw.png
+header-image: /assets/blauw/header-image-blauw.jpg
 
 screenshot1: /assets/blauw/screenshot1-blauw.jpg
 screenshot2: /assets/blauw/screenshot2-blauw.jpg
