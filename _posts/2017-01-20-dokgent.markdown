@@ -22,7 +22,7 @@ When I started with the assignment, I wanted to try a whole different style for 
 
 The first week I struggled with the structure of the design, how everything should be placed, what I would place on the home screen, and what should be on the detail page. When I knew what I would place where, I created wireframes for web and mobile and I build up the database.
 
-As I started designing, I struggled with the new direction I wanted to take, everything 'screamed' to much for attention, and the structure didn't seem all right. So I made a couple different variations of the design until I was happy. The colours of the events were different depending on the location of where they were held. I placed the 2 next upcoming events on the home page, found a filter system that would work, and placed recommendations and the next similar event on the detail page of an event.
+As I started designing, I struggled with the new direction I wanted to take. Everything 'screamed' to much for attention, and the structure didn't seem all right. So I made a couple different variations of the design until I was happy. The colours of the events were different depending on the location of where they were held. I placed the 2 next upcoming events on the home page, found a filter system that would work, and placed recommendations and the next similar event on the detail page of an event.
 
 Transferring the design in code was a task that took me about 5 days. I came across different challenging parts where I really had to stop and think about how I should code them. I eventually finished the project, got everything to work nicely, and was happy that I took another direction. It was a challenging but fun project.
 
