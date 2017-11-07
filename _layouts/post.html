@@ -74,16 +74,20 @@ layout: default
     </div>
       {% if page.screenshot1 or page.screenshot2 or page.screenshot3 %}
       <div class="post__article__screenshot-flex">
-        <div class="post__article__screenshot-box">
-          {% if page.screenshot1 %}
-          <img src="{{page.screenshot1}}" alt="screenshot 1" class="post__article__screenshot1 post__article__screenshot">
-          {% endif %}
-          {% if page.screenshot3 %}
-          <img src="{{page.screenshot3}}" alt="screenshot 3" class="post__article__screenshot3 post__article__screenshot">
-          {% endif %}
-        </div>
+        {% if page.screenshot1 %}
+        <img src="{{page.screenshot1}}" alt="screenshot 1" class="post__article__screenshot1 post__article__screenshot">
+        {% endif %}
+        {% if page.screenshot3 %}
+        <img src="{{page.screenshot3}}" alt="screenshot 3" class="post__article__screenshot3 post__article__screenshot">
+        {% endif %}
         {% if page.screenshot2 %}
         <img src="{{page.screenshot2}}" alt="screenshot 2" class="post__article__screenshot2 post__article__screenshot">
+        {% endif %}
+        {% if page.screenshot4 %}
+        <img src="{{page.screenshot4}}" alt="screenshot 4" class="post__article__screenshot4 post__article__screenshot">
+        {% endif %}
+        {% if page.screenshot5 %}
+        <img src="{{page.screenshot5}}" alt="screenshot 5" class="post__article__screenshot5 post__article__screenshot">
         {% endif %}
       </div>
       {% endif %}
