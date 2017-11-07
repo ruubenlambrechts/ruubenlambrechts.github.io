@@ -16,6 +16,10 @@ screenshot1: /assets/blauw/screenshot1-blauw.jpg
 screenshot2: /assets/blauw/screenshot2-blauw.jpg
 screenshot3: /assets/blauw/screenshot3-blauw.jpg
 
-brief: "//"
+brief: "Blauw is a beer brand that's well known in Kortrijk. They want to give away an evening full of 'blauw' to the most die hard fan group. We had to create a website supporting this campaign. The website had to give all the info about the contest, what they could win, and how they could win it. "
 ---
-//
+For this project I came up with a concept, where the winners would win a rooftop party sponsored by Blauw. For the website I wanted to recreate a realistic building, with a rooftop party on it. The building is full with blue elements and boards that give them the info they need.
+
+In order to win the contest they had to send in a picture of their group where everything is blue, clothes, hair, the setting etc. The concept was 'Blauw brings the roof to you' They also had to send in how they want to end their perfect rooftop party, and if they win, this wish would be fulfilled.
+
+I was very happy with the result of the website, it was a challenge to make everything look as realistic as possible and make everything look right.

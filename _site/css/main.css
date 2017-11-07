@@ -54,7 +54,7 @@ html {
   font-size: 62.5%; }
 
 body {
-  font-family: Proxima Nova;
+  font-family: Karla;
   font-size: 1.6rem; }
 
 .text {
@@ -324,17 +324,16 @@ body {
       margin-top: 3rem;
       justify-content: space-around;
       align-items: center;
-      width: 70vw; }
+      width: 90vw; }
     .post__article__screenshot-box {
       display: flex;
       flex-direction: column;
       align-items: center;
       margin-bottom: 2rem;
       margin-right: 2rem; }
-    .post__article__screenshot1 {
-      margin-bottom: 2rem; }
     .post__article__screenshot {
-      filter: drop-shadow(0 0.3rem 0.3rem rgba(0, 0, 0, 0.4)); }
+      filter: drop-shadow(0 0.3rem 0.3rem rgba(0, 0, 0, 0.4));
+      margin: 1.5rem; }
   .post__video {
     width: 700px;
     height: 400px; }

@@ -16,6 +16,10 @@ screenshot1: /assets/truck/screenshot1-truck.jpg
 screenshot2: /assets/truck/screenshot2-truck.jpg
 screenshot3: /assets/truck/screenshot3-truck.jpg
 
-brief: "//"
+brief: "For this project we had to create a truck festival, but it couldn't be a food-truck festival. It had to be a unique concept, that you could integrate in food-trucks or something similar. There had to be an option to buy tickets for the festival and additional options on the festival, and there also should be an interactive map on the website"
 ---
-//
+As a concept for the assignment I chose to make an exclusive event for rich people, a truck festival with airplanes on a private airport. The visitors had to option win a meeting with bill gates, win a concept car, have a swim in a swimming pool filled with champagne etc. the festival was extravagant and not for everybody.
+
+For the ticket system we had to keep all the data in a database, and place orders in them. I made a countdown of how many tickets were left in total, because the event was limited to 100 tickets. Design wise I wanted to experiment with putting pictures inside of 3d cubes. And I made the tickets look like airplane tickets.
+
+It was a hard project for me at the time because I was struggling with PHP, but I managed to make everything work, and was happy with the result.
