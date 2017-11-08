@@ -446,7 +446,8 @@ body {
     width: 100vw; }
 
   .about__text {
-    width: 90vw; }
+    width: auto;
+    margin-right: 2rem; }
 
   .post__categorie {
     max-width: 80%; }
@@ -500,6 +501,7 @@ body {
     margin-left: 2rem; }
 
   .post__img-ipad {
+    overflow: hidden;
     margin-left: -2rem; }
   .post .post__video {
     margin-left: -2rem; }
@@ -508,7 +510,13 @@ body {
   .post__article__screenshot-flex {
     width: 100vw; }
   .post__article__screenshot-box {
-    margin-right: 0; } }
+    margin-right: 0; }
+  .post__article__screenshot-div {
+    overflow: hidden; }
+    .post__article__screenshot-div::before {
+      left: 0%; }
+    .post__article__screenshot-div::after {
+      right: 1%; } }
 @media (max-width: 480px) {
   .post__video {
     height: 26rem; } }

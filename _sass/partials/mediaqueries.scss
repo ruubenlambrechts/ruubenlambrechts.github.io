@@ -11,7 +11,8 @@
   }
 
   .about__text {
-    width: 90vw;
+    width: auto;
+    margin-right: 2rem;
   }
 
   .post {
@@ -120,6 +121,7 @@
   .post {
 
     &__img-ipad {
+      overflow: hidden;
       margin-left: -2rem;
     }
 
@@ -139,6 +141,19 @@
 
       &__screenshot-box {
         margin-right: 0;
+      }
+
+      &__screenshot-div {
+
+        overflow: hidden;
+
+        &::before {
+          left: 0%;
+        }
+
+        &::after {
+          right: 1%;
+        }
       }
     }
   }
