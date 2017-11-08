@@ -125,18 +125,6 @@ line-height: 1.5rem;
       object-fit: cover;
     }
 
-    &__img-iphone {
-      filter: drop-shadow(0 0.3rem 0.3rem rgba(0, 0, 0, 0.4));
-      width: 20vw;
-      background: url(../assets/iphone.png) no-repeat;
-      background-size: contain;
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      padding: 5% 0%;
-      margin-right: 3rem;
-    }
-
     &__screenshot-flex {
       display: flex;
       flex-wrap: wrap;
