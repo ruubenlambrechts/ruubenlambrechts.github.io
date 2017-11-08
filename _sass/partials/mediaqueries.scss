@@ -55,6 +55,20 @@
   }
 }
 
+@media (max-width: 880px) {
+  .post__img-ipad {
+    &::before{
+      left: -3%;
+      top: 0%;
+    }
+
+    &::after {
+      right: -2%;
+      bottom: 0%;
+    }
+  }
+}
+
 @media (max-width: 780px) {
   .post__video {
     width: 100vw;
@@ -75,6 +89,14 @@
       margin: 0;
       width: 100vw;
       margin-left: -4rem;
+
+      &::before {
+        left: 0%;
+      }
+
+      &::after {
+        right: 0%;
+      }
     }
 
     &__article__top-text {
@@ -116,11 +138,6 @@
       }
 
       &__screenshot-box {
-        margin-right: 0;
-      }
-
-
-      &__screenshot {
         margin-right: 0;
       }
     }
