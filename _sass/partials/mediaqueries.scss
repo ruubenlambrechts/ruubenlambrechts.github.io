@@ -20,28 +20,25 @@
       max-width: 80%;
     }
 
-    &__header {
-
-      &-flex {
-        flex-direction: column;
-      }
-
-      &-flex__right {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        width: 85vw;
-        margin-left: 0;
-      }
-
-      &-flex__right div {
-        margin-right: 3rem;
-        margin-bottom: 1rem;
-      }
+    &__img {
+      width: 90vw;
     }
 
     &__img-ipad {
       width: 90vw;
+    }
+
+    &__video-div {
+      margin: 0;
+      width: 100vw;
+
+      &::before {
+        display: none;
+      }
+
+      &::after {
+        display: none;
+      }
     }
 
     &__article {
@@ -82,10 +79,6 @@
 
     &__article__top-text {
       width: 100vw;
-    }
-
-    &__article__img-iphone {
-      display: none;
     }
   }
 }
