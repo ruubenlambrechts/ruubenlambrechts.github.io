@@ -14,30 +14,61 @@ line-height: 1.5rem;
 
   &__header-flex {
     display: flex;
+    flex-direction: column;
     padding: 2.5rem 4rem;
 
       &__right {
         margin: 1rem 0 0 2rem;
-        width: 25vw;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 85vw;
+      }
+
+      &__right div {
+        margin-bottom: 1rem;
       }
   }
 
   &__img {
-    width: 86%;
-    object-fit: cover;
-    padding: 3.3% 0;
+    margin: 1.5rem;
+    width: 60vw;
+    filter: drop-shadow(0 .3rem .3rem rgba(0, 0, 0, .4));
+    z-index: 1;
   }
 
   &__img-ipad {
-    margin: 1.5rem 0;
-    filter: drop-shadow(0 .3rem .3rem rgba(0, 0, 0, .4));
     width: 60vw;
-    height: 100%;
-    background: url(../assets/ipad.png) no-repeat;
-    background-size: contain;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    position: relative;
+
+    &::before {
+      position: absolute;
+      display: block;
+      content: "";
+      height: 50%;
+      width: 40vw;
+      position: absolute;
+      background-color: var(--pink);
+      left: -5%;
+      top: -1%;
+    }
+
+    &::after {
+      position: absolute;
+      display: block;
+      content: "";
+      height: 30%;
+      width: 30vw;
+      position: absolute;
+      background-color: var(--pink);
+      right: -5%;
+      bottom: -1%;
+      z-index: 0;
+    }
   }
 
   &__big-title {
@@ -82,7 +113,7 @@ line-height: 1.5rem;
     }
 
     &__top-text {
-      width: 70vw;
+      width: 85vw;
     }
 
     &-box {
@@ -125,14 +156,81 @@ line-height: 1.5rem;
     }
 
     &__screenshot {
-      filter: drop-shadow(0 .3rem .3rem rgba(0, 0, 0, .4));
+      z-index: 1;
       margin: 1.5rem;
+      filter: drop-shadow(0 0.3rem 0.3rem rgba(0, 0, 0, 0.4));
+    }
+
+    &__screenshot-div {
+      position: relative;
+      margin: 1rem 0;
+
+      &::before {
+        position: absolute;
+        display: block;
+        content: "";
+        height: 50%;
+        width: 55%;
+        position: absolute;
+        background-color: var(--pink);
+        left: -5%;
+        top: -1%;
+        z-index: -1;
+      }
+
+      &::after {
+        position: absolute;
+        display: block;
+        content: "";
+        height: 30%;
+        width: 70%;
+        position: absolute;
+        background-color: var(--blue);
+        right: -5%;
+        bottom: -1%;
+        z-index: -1;
+      }
     }
   }
 
   &__video {
-    width: 700px;
-    height: 400px;
+      width: 700px;
+      height: 400px;
+      z-index: 1;
+      display: flex;
+      margin: auto;
+    }
+
+  &__video-div {
+    width: 70rem;
+    position: relative;
+    display: flex;
+    margin: auto;
+
+    &::before {
+      position: absolute;
+      display: block;
+      content: "";
+      height: 50%;
+      width: 55%;
+      position: absolute;
+      background-color: var(--pink);
+      left: -5%;
+      top: -1%;
+    }
+
+    &::after {
+      position: absolute;
+      display: block;
+      content: "";
+      height: 30%;
+      width: 70%;
+      position: absolute;
+      background-color: var(--pink);
+      right: -5%;
+      bottom: -1%;
+      z-index: 0;
+    }
   }
 
   &__text {

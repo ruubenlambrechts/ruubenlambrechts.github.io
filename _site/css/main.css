@@ -256,24 +256,49 @@ body {
     margin-bottom: 1.5rem; }
   .post__header-flex {
     display: flex;
+    flex-direction: column;
     padding: 2.5rem 4rem; }
     .post__header-flex__right {
       margin: 1rem 0 0 2rem;
-      width: 25vw; }
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: 85vw; }
+    .post__header-flex__right div {
+      margin-bottom: 1rem; }
   .post__img {
-    width: 86%;
-    object-fit: cover;
-    padding: 3.3% 0; }
-  .post__img-ipad {
-    margin: 1.5rem 0;
-    filter: drop-shadow(0 0.3rem 0.3rem rgba(0, 0, 0, 0.4));
+    margin: 1.5rem;
     width: 60vw;
-    height: 100%;
-    background: url(../assets/ipad.png) no-repeat;
-    background-size: contain;
+    filter: drop-shadow(0 0.3rem 0.3rem rgba(0, 0, 0, 0.4));
+    z-index: 1; }
+  .post__img-ipad {
+    width: 60vw;
+    margin: auto;
     display: flex;
     justify-content: center;
-    align-items: flex-start; }
+    align-items: flex-start;
+    position: relative; }
+    .post__img-ipad::before {
+      position: absolute;
+      display: block;
+      content: "";
+      height: 50%;
+      width: 40vw;
+      position: absolute;
+      background-color: var(--pink);
+      left: -5%;
+      top: -1%; }
+    .post__img-ipad::after {
+      position: absolute;
+      display: block;
+      content: "";
+      height: 30%;
+      width: 30vw;
+      position: absolute;
+      background-color: var(--pink);
+      right: -5%;
+      bottom: -1%;
+      z-index: 0; }
   .post__big-title {
     text-align: center;
     font-size: 2.8rem;
@@ -301,7 +326,7 @@ body {
       align-items: flex-start;
       justify-content: space-between; }
     .post__article__top-text {
-      width: 70vw; }
+      width: 85vw; }
     .post__article-box {
       width: 100%; }
     .post__article__img {
@@ -332,11 +357,66 @@ body {
       margin-bottom: 2rem;
       margin-right: 2rem; }
     .post__article__screenshot {
-      filter: drop-shadow(0 0.3rem 0.3rem rgba(0, 0, 0, 0.4));
-      margin: 1.5rem; }
+      z-index: 1;
+      margin: 1.5rem;
+      filter: drop-shadow(0 0.3rem 0.3rem rgba(0, 0, 0, 0.4)); }
+    .post__article__screenshot-div {
+      position: relative;
+      margin: 1rem 0; }
+      .post__article__screenshot-div::before {
+        position: absolute;
+        display: block;
+        content: "";
+        height: 50%;
+        width: 55%;
+        position: absolute;
+        background-color: var(--pink);
+        left: -5%;
+        top: -1%;
+        z-index: -1; }
+      .post__article__screenshot-div::after {
+        position: absolute;
+        display: block;
+        content: "";
+        height: 30%;
+        width: 70%;
+        position: absolute;
+        background-color: var(--blue);
+        right: -5%;
+        bottom: -1%;
+        z-index: -1; }
   .post__video {
     width: 700px;
-    height: 400px; }
+    height: 400px;
+    z-index: 1;
+    display: flex;
+    margin: auto; }
+  .post__video-div {
+    width: 70rem;
+    position: relative;
+    display: flex;
+    margin: auto; }
+    .post__video-div::before {
+      position: absolute;
+      display: block;
+      content: "";
+      height: 50%;
+      width: 55%;
+      position: absolute;
+      background-color: var(--pink);
+      left: -5%;
+      top: -1%; }
+    .post__video-div::after {
+      position: absolute;
+      display: block;
+      content: "";
+      height: 30%;
+      width: 70%;
+      position: absolute;
+      background-color: var(--pink);
+      right: -5%;
+      bottom: -1%;
+      z-index: 0; }
   .post__text {
     padding: 0 5rem 0 1rem;
     margin-bottom: 1rem; }
@@ -380,19 +460,17 @@ body {
 
   .post__categorie {
     max-width: 80%; }
-  .post__header-flex {
-    flex-direction: column; }
-  .post__header-flex__right {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 85vw;
-    margin-left: 0; }
-  .post__header-flex__right div {
-    margin-right: 3rem;
-    margin-bottom: 1rem; }
+  .post__img {
+    width: 90vw; }
   .post__img-ipad {
     width: 90vw; }
+  .post__video-div {
+    margin: 0;
+    width: 100vw; }
+    .post__video-div::before {
+      display: none; }
+    .post__video-div::after {
+      display: none; }
   .post__article {
     align-items: flex-start; }
     .post__article__screenshot2 {
@@ -412,9 +490,7 @@ body {
     width: 100vw;
     margin-left: -4rem; }
   .post__article__top-text {
-    width: 100vw; }
-  .post__article__img-iphone {
-    display: none; } }
+    width: 100vw; } }
 @media (max-width: 580px) {
   .post__video {
     height: 33rem; } }
