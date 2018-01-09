@@ -486,7 +486,8 @@ body {
     background: none;
     margin: 0;
     width: 100vw;
-    margin-left: -4rem; }
+    margin-left: -4rem;
+    overflow: hidden; }
     .post__img-ipad::before {
       left: 0%; }
     .post__img-ipad::after {
