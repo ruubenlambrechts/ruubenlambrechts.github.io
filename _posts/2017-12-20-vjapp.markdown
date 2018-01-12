@@ -12,7 +12,7 @@ categorie: Web Audio, Three.js, WebGL, Web Midi
 core: Experimental Web
 
 cover-image: /assets/vjapp/cover-image-vjapp.jpg
-video: <iframe src="https://player.vimeo.com/video/250294916" class="post__video" width="550" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen ></iframe>
+video: <iframe src="https://player.vimeo.com/video/250821848" class="post__video" width="550" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen ></iframe>
 
 screenshot1: /assets/vjapp/screenshot1-vjapp.jpg
 screenshot2: /assets/vjapp/screenshot2-vjapp.jpg
