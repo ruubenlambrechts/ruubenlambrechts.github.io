@@ -1,0 +1,27 @@
+---
+layout: post
+date:  2018-06-14 14:28:47 +0100
+title: "Zinobe website"
+
+online: http://duvalbrandingcom.webhosting.be/zinobe/
+team:
+  - Ruuben Lambrechts
+categorie: Web Audio, Three.js, WebGL, Wordpress
+core: Experimental Web
+
+cover-image: /assets/zinobe/cover-image-zinobe.jpg
+header-image: /assets/zinobe/header-image-zinobe.jpg
+
+screenshot1: /assets/zinobe/screenshot1-zinobe.jpg
+screenshot2: /assets/zinobe/screenshot2-zinobe.jpg
+screenshot3: /assets/zinobe/screenshot3-zinobe.jpg
+
+brief: "During my internship @ duval branding, i was able to design and develop a website for an upcoming DJ called DJ Znoise. The bureau made a rebranding for the client, and it's new name became ZINOBE. My role in this assignment was to design and develop a website around his brand. I could get creative with the website, and decided to use my WebGL skills to make the spheres interactive on the music that's playing on the website. "
+---
+The concept around the brand, is a colored camouflage pattern that supports the flat and simple logo. I decided to take this camouflage apart, because the overload of colors would be to much on the website. I took the colors of the pattern, and used these for the 3d shapes.
+
+These 3d shapes morph on the website, and when the music of ZINOBE starts to play, or when the user decides to watch a movie of ZINOBE on the website, these shapes start to morph depending on how high the output of the frequencies of the song is. This way the website got an interactive layer added to it.
+
+The next step was to put all this in a Wordpress CMS so that the client can easily manage all the content of the website, and so that no content is static. After this was done, I had to make the website work on mobile. So i made the website responsive using media queries in CSS and JS. The shapes don't morph on the music when browsing on a mobile device, because this would make the website lagg, and break the experience.
+
+I'm verry satisfied with the result, and i learned allot about WebGL, Wordpress and WebAudio while working on the project.
