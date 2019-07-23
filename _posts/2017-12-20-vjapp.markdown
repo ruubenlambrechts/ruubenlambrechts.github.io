@@ -1,7 +1,7 @@
 ---
 layout: post
-date:  2017-12-20 14:28:47 +0100
-title: "Vj App"
+date: 2017-12-20 14:28:47 +0100
+title: 'Vj App'
 
 online: https://vj-app-b96f2.firebaseapp.com/
 github: https://github.com/wouterlanduydt/vj-app
@@ -17,12 +17,14 @@ video: <iframe src="https://player.vimeo.com/video/250821848" class="post__video
 screenshot1: /assets/vjapp/screenshot1-vjapp.jpg
 screenshot2: /assets/vjapp/screenshot2-vjapp.jpg
 screenshot3: /assets/vjapp/screenshot3-vjapp.jpg
+screenshot4: /assets/vjapp/screenshot4-vjapp.jpg
 
 brief: "' Create an experimental application, using 1 seen technology, and 1 technology we haven't seen, in a period of 5 weeks. ' This was the assignment that our teacher gave us. We knew a lot of learning, aha-moments and cursing was up ahead before we even started with the project."
 ---
+
 From the moment we started with the assignment, we knew that we wanted to do something with Web Midi. We both like music, and Wouter has a Traktor panel at home that he uses when he's a Dj at a party.
 
-We started by modifying a WebGL project that we made in class. I was figuring out what  aspects of the shapes we were able to modify through sliders etc., and Wouter was trying to figure out how Web Midi and Web Audio worked. We wanted to alter the shapes and scene according to the frequencies of a song that was playing.
+We started by modifying a WebGL project that we made in class. I was figuring out what aspects of the shapes we were able to modify through sliders etc., and Wouter was trying to figure out how Web Midi and Web Audio worked. We wanted to alter the shapes and scene according to the frequencies of a song that was playing.
 
 A lot of the time we were testing and fixing bugs that we had of the project. I made the different scenes in WebGL. And Wouter linked these scenes with the midi controller and the frequencies. We made it possible to capture the mic input and alter the scenes live.
 
